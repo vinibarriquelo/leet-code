@@ -1,5 +1,10 @@
+import problems.scoreOfString.ScoreOfString;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Main class!");
+        var challenger = new ScoreOfString();
+
+        System.out.println(challenger.solution("hello"));
+
     }
 }
